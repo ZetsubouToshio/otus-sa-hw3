@@ -1,0 +1,15 @@
+replicaCount: 2
+
+image:
+  repository: zetsuboutoshio/otus-demo
+
+host: arch.homework
+routePrefix: /otusapp/vtimoshenko
+
+postgresql:
+  enabled: true
+  postgresqlUsername: otus
+  postgresqlPassword: otus
+  postgresqlDatabase: otus
+  service:
+    port: "5432"

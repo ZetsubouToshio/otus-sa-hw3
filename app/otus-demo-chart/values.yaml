@@ -1,0 +1,23 @@
+replicaCount: 1
+
+image:
+  repository: 
+
+service:
+  type: NodePort
+  port: 9000
+
+host:
+routePrefix:
+
+postgresql:
+  enabled: true
+  postgresqlUsername: 
+  postgresqlPassword: 
+  postgresqlDatabase: 
+  service:
+    port: 
+
+metrics:
+  serviceMonitor:
+    enabled: true
