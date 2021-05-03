@@ -5,8 +5,8 @@ kubectl delete -A ValidatingWebhookConfiguration ingress-nginx-admission
 ```
 
 # Порядок установки
-* app
 * prometheus
+* app
 * nginx-ingress
 
 # Подергать дашборды сервисов мониторинга:
@@ -19,5 +19,7 @@ kubectl --namespace monitoring port-forward --address 0.0.0.0 svc/prometheus-kub
 kubectl --namespace monitoring port-forward --address 0.0.0.0 svc/prometheus-grafana 30080:80 
 ```
 user: admin
+
 pass: prom-operator
-# Импорт дашборда в Grafana
+## Импорт дашборда в Grafana
+В директории dashboards сохранены дашборды графаны в формате json, их можно импортнуть и посмотреть все графики вживую
