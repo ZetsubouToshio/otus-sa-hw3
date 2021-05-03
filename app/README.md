@@ -1,4 +1,4 @@
-# otus-sa-hw2
+# otus-sa-hw3
 Helm-chart для разворачивания demo-сервиса. Имеет в зафисимостях postgres chart из bitnami repo. 
 Java-сервис с sql-миграциями на Flyway, поэтому время старта заложено в 2 минуты. 
 
