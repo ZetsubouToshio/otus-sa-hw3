@@ -18,8 +18,10 @@ kubectl --namespace monitoring port-forward --address 0.0.0.0 svc/prometheus-kub
 ```
 kubectl --namespace monitoring port-forward --address 0.0.0.0 svc/prometheus-grafana 30080:80 
 ```
-user: admin
-
+user: admin  
 pass: prom-operator
 ## Импорт дашборда в Grafana
 В директории dashboards сохранены дашборды графаны в формате json, их можно импортнуть и посмотреть все графики вживую
+
+# Скриншоты
+В папке screenshots лежат скрины дашбордов в таком же виде, в каком их можно увидеть при импорте через json 
