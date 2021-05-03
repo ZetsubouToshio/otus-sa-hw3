@@ -1,5 +1,3 @@
-replicaCount: 2
-
 image:
   repository: zetsuboutoshio/otus-demo
 
@@ -8,8 +6,20 @@ routePrefix: /otusapp/vtimoshenko
 
 postgresql:
   enabled: true
+
+  fullnameOverride: postgres
   postgresqlUsername: otus
   postgresqlPassword: otus
   postgresqlDatabase: otus
+
   service:
+    type: LoadBalancer
     port: "5432"
+  
+  persistance:
+    enabled: true
+    size: 1Gi
+
+metrics:
+  serviceMonitor:
+    enabled: true

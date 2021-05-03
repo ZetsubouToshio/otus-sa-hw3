@@ -6,15 +6,11 @@ Java-сервис с sql-миграциями на Flyway, поэтому вре
 ```helm install otus-demo ./otus-demo-chart -f values.yaml```
 
 ## Тест
-```curl -H "Host:arch.homework" http://{HOST}/otusapp/vtimoshenko/health```
-
-или внести правки в /etc/hosts и запускать без хедера:
-
-```curl http://{HOST}/otusapp/vtimoshenko/health```
+```curl http://arch.homework/otusapp/vtimoshenko/health```
   
 ## Api-тесты из Postman 
 Предварительно необходимо изменить хост на ip ingress'а в user_api_postman_collection.json  
 
-```newman run user_api_postman_collection.json```
+```newman run tests/user_api_postman_collection.json```
 
   

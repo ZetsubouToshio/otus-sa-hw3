@@ -1,4 +1,4 @@
-apiVersion: v2
+lapiVersion: v2
 name: otus-demo-chart
 description: A Helm chart for Kubernetes
 
@@ -24,7 +24,7 @@ appVersion: 0.0.6
 
 dependencies:
   - name: postgresql
-    version: 9.8.7
+    version: '^8'
     repository: https://charts.bitnami.com/bitnami
     condition: postgresql.enabled
     tags:
