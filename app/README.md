@@ -9,7 +9,7 @@ Java-сервис с sql-миграциями на Flyway, поэтому вре
 ```curl http://arch.homework/otusapp/vtimoshenko/health```
   
 ## Api-тесты из Postman 
-Предварительно необходимо изменить хост на ip ingress'а в user_api_postman_collection.json  
+Предварительно необходимо изменить хост на ip ingress'а в user_api_postman_collection.json или прописать в хосты arch.homework  
 
 ```newman run tests/user_api_postman_collection.json```
 
