@@ -15,8 +15,8 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 6,
-  "iteration": 1620072334532,
+  "id": 31,
+  "iteration": 1620729451059,
   "links": [],
   "panels": [
     {
@@ -3021,6 +3021,6 @@
   },
   "timezone": "UTC",
   "title": "Kubernetes / Compute Resources / Cluster",
-  "uid": "efa86fd1d0c121a26444b636a3f509a8",
+  "uid": "efa86fd1d0c121a26444b636a3f509a9",
   "version": 1
 }

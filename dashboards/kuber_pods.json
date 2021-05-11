@@ -15,8 +15,8 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 22,
-  "iteration": 1620072527329,
+  "id": 30,
+  "iteration": 1620729582992,
   "links": [],
   "panels": [
     {
@@ -969,6 +969,6 @@
   },
   "timezone": "UTC",
   "title": "Kubernetes / Compute Resources / Node (Pods)",
-  "uid": "200ac8fdbfbb74b39aff88118e4d1c2c",
+  "uid": "200ac8fdbfbb74b39aff88118e4d1c2b",
   "version": 1
 }
