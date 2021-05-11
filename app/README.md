@@ -1,6 +1,6 @@
 # otus-sa-hw3
 Helm-chart для разворачивания demo-сервиса. Имеет в зафисимостях postgres chart из bitnami repo. 
-Java-сервис с sql-миграциями на Flyway, поэтому время старта заложено в 2 минуты. 
+Java-сервис с sql-миграциями на Flyway, поэтому время старта зависит от полного поднятия postgres. 
 
 ## Старт
 ```helm install otus-demo ./otus-demo-chart -f values.yaml```
@@ -13,4 +13,5 @@ Java-сервис с sql-миграциями на Flyway, поэтому вре
 
 ```newman run tests/user_api_postman_collection.json```
 
-  
+Нагрузка:
+```./tests/perfomance_test.sh```  
